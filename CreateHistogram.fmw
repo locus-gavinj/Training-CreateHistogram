@@ -1,0 +1,295 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command line to run this workspace:
+#        "C:\Program Files\FME\FME2024-1-2-1\fme.exe" C:\Users\Gavin\Documents\FME\Repositories-Locus\CreateHistogram\CreateHistogram.fmw
+#          --FME_LAUNCH_VIEWER_APP "YES"
+#    
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="1737.12 65"
+#!   DOC_TOP_LEFT="484.38 -521.255"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="24624"
+#!   FME_BULK_MODE_THRESHOLD="2000"
+#!   FME_DOCUMENT_GUID="ac0dc661-b076-402f-b701-8131d6228a2e"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_NAMES_ENCODING="UTF-8"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2024.1.2.1 (20240906 - Build 24624 - WIN64)"
+#!   LAST_SAVE_DATE="2025-03-15T19:52:34"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="312"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-240.627 -56.2506"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <USER_PARAMETERS
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbXX0="
+#! >
+#! <PARAMETER_INFO>
+#! </PARAMETER_INFO>
+#! </USER_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Creator"
+#!   VERSION="7"
+#!   POSITION="484.37984379843795 -456.25456254562545"
+#!   BOUNDING_RECT="484.37984379843795 -456.25456254562545 436 65"
+#!   ORDER="500000000000001"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24624"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="GEOJSON" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1000"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="RandomNumberGenerator"
+#!   VERSION="3"
+#!   POSITION="1020.3798437984379 -456.25456254562545"
+#!   BOUNDING_RECT="1020.3798437984379 -456.25456254562545 551 65"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24624"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_random_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="MAX" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="MIN" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PLACES" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="RESULT_ATTR" PARM_VALUE="_random_number"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RandomNumberGenerator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="ChartGenerator"
+#!   VERSION="1"
+#!   POSITION="1785.5006250062493 -456.25456254562545"
+#!   BOUNDING_RECT="1785.5006250062493 -456.25456254562545 436 65"
+#!   ORDER="500000000000004"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24624"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_PARM PARM_NAME="AXES_FONT" PARM_VALUE="Arial&lt;comma&gt;12"/>
+#!     <XFORM_PARM PARM_NAME="AXES_LW" PARM_VALUE="0.5"/>
+#!     <XFORM_PARM PARM_NAME="AXES_OPTIONS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="BACKGROUND_COLOR" PARM_VALUE="1&lt;comma&gt;1&lt;comma&gt;1"/>
+#!     <XFORM_PARM PARM_NAME="CHART_SETUP" PARM_VALUE="SUMMARY_DATA;_random_number;NUM_BINS;20;COLOR;0,0,1;TREND_LINE;NO;FME_CONTROLLER_QUERY_FILE;transformers&lt;solidus&gt;dependencies&lt;solidus&gt;charter&lt;solidus&gt;Histogram.fme;FME_CONTROLLER_CHOICE;Histogram"/>
+#!     <XFORM_PARM PARM_NAME="CHART_TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CHART_TYPE" PARM_VALUE="Histogram"/>
+#!     <XFORM_PARM PARM_NAME="DATA_PARAMETERS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="DATA_SERIES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DPI" PARM_VALUE="300"/>
+#!     <XFORM_PARM PARM_NAME="GENERAL_OPTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="HIDDENGROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERPRETATION" PARM_VALUE="RGBA32"/>
+#!     <XFORM_PARM PARM_NAME="LEGEND" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LEGEND_FONT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LEGEND_OPTIONS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_DS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_OPTIONS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="STYLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="TICKS" PARM_VALUE="T"/>
+#!     <XFORM_PARM PARM_NAME="TICK_FONT" PARM_VALUE="Arial&lt;comma&gt;10"/>
+#!     <XFORM_PARM PARM_NAME="TITLE_FONT" PARM_VALUE="Arial&lt;comma&gt;12"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XAXES_OPTIONS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ChartGenerator"/>
+#!     <XFORM_PARM PARM_NAME="XTICK_INTERVAL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="X_INCH" PARM_VALUE="2.0"/>
+#!     <XFORM_PARM PARM_NAME="X_LABEL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="X_LABEL_ANGLE" PARM_VALUE="Horizontal&lt;space&gt;&lt;openparen&gt;0&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="X_LOG" PARM_VALUE="LIN"/>
+#!     <XFORM_PARM PARM_NAME="X_MAX" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="X_MIN" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="YAXES_OPTIONS" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="YTICK_INTERVAL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="Y_INCH" PARM_VALUE="2.0"/>
+#!     <XFORM_PARM PARM_NAME="Y_LABEL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="Y_LABEL_ANGLE" PARM_VALUE="Horizontal&lt;space&gt;&lt;openparen&gt;0&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="Y_LOG" PARM_VALUE="LIN"/>
+#!     <XFORM_PARM PARM_NAME="Y_MAX" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="Y_MIN" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERPRETATION_TYPE_LOOKUP" PARM_IS_LOOKUP="true" PARM_VALUE="RGBA32"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.95686274509803926,0.95294117647058818,0.92941176470588238,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="9"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.95686274509803926,0.95294117647058818,0.92941176470588238,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 312
+ARCGIS_COMPATIBILITY ARCGIS_AUTO
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+WRITER_TYPE MULTI_WRITER
+WRITER_KEYWORD MULTI_DEST
+MULTI_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)CreateHistogram.log"
+LOG_APPEND NO
+LOG_TIMINGS YES
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+FME_NAMES_ENCODING UTF-8
+FME_BULK_MODE_THRESHOLD 2000
+LAST_SAVE_BUILD "FME 2024.1.2.1 (20240906 - Build 24624 - WIN64)"
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME CreateHistogram
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_GEOJSON NOT_ACTIVATED
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {GeoJSON} } {            puts {MACRO Creator_GEOJSON *} } ]
+FACTORY_DEF {$(Creator_XML)} CreationFactory    FACTORY_NAME { Creator_XML_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<gt><lt>null<solidus><gt><lt><solidus>geometry<gt>) }
+FACTORY_DEF {$(Creator_GEOJSON)} CreationFactory    FACTORY_NAME { Creator_GEOJSON_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______ 	   @SupplyAttributes(ENCODED,__GeoJSONCreatorTemp__,<Unused>)        @JSONGeometry(FROM_ATTRIBUTE,GEOJSON,__GeoJSONCreatorTemp__, PREFER_ERROR_OVER_REJECTION) 	   @RemoveAttributes(__GeoJSONCreatorTemp__) }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Creator_Cloner }    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES { 1000 }    COPY_NUMBER_ATTRIBUTE { "_creation_instance" }    OUTPUT { FEATURE_TYPE Creator_CREATED        fme_feature_type Creator         }
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 4"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+Tcl2 proc RandomNumberGenerator_generator {paramMin paramMax paramPlaces} {    set absoluteMax [expr abs($paramMax)];    set absoluteMin [expr abs($paramMin)];    if {$absoluteMin > $absoluteMax} {       set temp $absoluteMax;       set absoluteMax $absoluteMin;       set absoluteMin $temp;    };    set maxNumDigits 1;    if {$absoluteMax > 0} {       set maxNumDigits [expr int(log10($absoluteMax) + 1)];    };    set positiveParamPlaces [expr abs($paramPlaces)];    if {$paramMin > $paramMax} {       FME_SetAttribute {"_random_number"} NaN;    } elseif {$paramPlaces < 0 && $maxNumDigits <= $positiveParamPlaces} {       FME_SetAttribute {"_random_number"} 0;    } else {       set randomNumber [expr rand()];       set mult [expr pow(10, $paramPlaces)];       set innerMin [expr double($paramMin)];       set innerMax [expr double($paramMax)];       if {$paramPlaces > 0} {          set addValue [expr pow(10, -$paramPlaces)];          set indexDotMin [string first "." $innerMin];          set indexDotMax [string first "." $innerMax];          set countDecPlacesMin [expr [string length $innerMin] - $indexDotMin - 1];          set countDecPlacesMax [expr [string length $innerMax] - $indexDotMax - 1];          set countTruncatedDecPlaces [expr $countDecPlacesMin - $paramPlaces];          if {$countTruncatedDecPlaces > 0} {             set zeroes [string repeat "0" $countTruncatedDecPlaces];             set truncatedDecPlaces [string range $innerMin [expr $indexDotMin + 1 + $paramPlaces] [string length $innerMin]];             if {![string equal $truncatedDecPlaces $zeroes]}             {                set truncatedResult [string range $innerMin 0 [expr $indexDotMin + $paramPlaces]];                if {$innerMin > 0} {                   set truncatedResult [expr $truncatedResult + $addValue];                };                set innerMin $truncatedResult;             };          };          set countTruncatedDecPlaces [expr $countDecPlacesMax - $paramPlaces];          if {$countTruncatedDecPlaces > 0} {             set zeroes [string repeat "0" $countTruncatedDecPlaces];             set truncatedDecPlaces [string range $innerMax [expr $indexDotMax + 1 + $paramPlaces] [string length $innerMax]];             if {![string equal $truncatedDecPlaces $zeroes]}             {                set truncatedResult [string range $innerMax 0 [expr $indexDotMax + $paramPlaces]];                if {$innerMax < 0} {                   set truncatedResult [expr $truncatedResult - $addValue];                };                set innerMax $truncatedResult;             };          };       } else {          set innerMin [expr ceil($paramMin * $mult) * 1.0 / $mult];          set innerMax [expr floor($paramMax * $mult) * 1.0 / $mult];       };       set integerMin $innerMin;       set integerMax $innerMax;       set integerMin [expr wide($innerMin * $mult)];       set integerMax [expr wide($innerMax * $mult)];       set integerResult [expr $integerMin + wide($randomNumber * ($integerMax + 1 - $integerMin))];       set result [expr $integerResult * 1.0 / $mult];       set formatString "%.0f";       if {$paramPlaces > 0} {          set formatString [format "%%.%df" $paramPlaces];       };       FME_SetAttribute {"_random_number"} [format $formatString $result];    }; }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { RandomNumberGenerator_MinRejecter }    INPUT  FEATURE_TYPE Creator_CREATED    TEST { "1" TYPE NUM ENCODED }    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT { PASSED FEATURE_TYPE RandomNumberGenerator__toMaxRejecter__ }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { RandomNumberGenerator_MaxRejecter }    INPUT { FEATURE_TYPE RandomNumberGenerator__toMaxRejecter__ }    TEST { "20" TYPE NUM ENCODED }    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT { PASSED FEATURE_TYPE RandomNumberGenerator__toPlacesRejecter__ }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { RandomNumberGenerator_PlacesRejecter }    INPUT { FEATURE_TYPE RandomNumberGenerator__toPlacesRejecter__ }    TEST { "0" TYPE INT ENCODED }    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT { PASSED FEATURE_TYPE RandomNumberGenerator__toOutput__ }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { RandomNumberGenerator_RandomNumberGenerator }    INPUT { FEATURE_TYPE RandomNumberGenerator__toOutput__ }    OUTPUT { FEATURE_TYPE RandomNumberGenerator_OUTPUT         @Tcl2("RandomNumberGenerator_generator {1} {20} {0} ")          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    INPUT  FEATURE_TYPE RandomNumberGenerator_OUTPUT    OUTPUT { FEATURE_TYPE ChartGenerator_PROCESSED       fme_cg_chart_type "Histogram"       fme_cg_chart_title ""       fme_cg_chart_setup "SUMMARY_DATA;_random_number;NUM_BINS;20;COLOR;0,0,1;TREND_LINE;NO"       fme_cg_x_label ""       fme_cg_y_label ""       fme_cg_multi_ds "<Unused>"       fme_cg_legend "<Unused>"       fme_cg_legend_options "NO"       fme_cg_x_min ""       fme_cg_y_min ""       fme_cg_x_max ""       fme_cg_y_max ""       fme_cg_axes_lw "0.5"       fme_cg_axes_font "Arial<comma>12"       fme_cg_title_font "Arial<comma>12"       fme_cg_legend_font "<Unused>"       fme_cg_tick_font "Arial<comma>10"       fme_cg_background_color "1<comma>1<comma>1"       fme_cg_ticks "T"       fme_cg_x_log "LIN"       fme_cg_y_log "LIN"       fme_cg_x_label_angle "Horizontal<space><openparen>0<closeparen>"       fme_cg_y_label_angle "Horizontal<space><openparen>0<closeparen>"       fme_cg_data_series ""       fme_cg_xtick_interval ""       fme_cg_ytick_interval ""       fme_cg_x_inch   "2.0"       fme_cg_y_inch  "2.0"       fme_cg_dpi "300" }
+FACTORY_DEF {*} PythonFactory    FACTORY_NAME { ChartGenerator }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    INPUT { FEATURE_TYPE ChartGenerator_PROCESSED }    SYMBOL_NAME chartgenerator.ChartGenerator
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
